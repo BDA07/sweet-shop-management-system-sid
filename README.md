@@ -1,2 +1,229 @@
-# sweet-shop-management-system-sid
-Full-stack Sweet Shop Management System built with React, TypeScript, Node.js, and Express. Features JWT-based authentication, role-based access (Admin/User), inventory management, and a modern admin dashboard. Developed using clean architecture and TDD principles.
+.
+
+🍬 Sweet Shop Management System
+SIDHARTH – Sweets & Savouries
+
+A production-ready full-stack Sweet Shop Management System built with React, TypeScript, Node.js, and Express.
+The application supports secure authentication, role-based access (Admin/User), inventory management, and a modern admin dashboard, developed using clean architecture and TDD principles.
+
+🚀 Features
+🔐 Authentication & Authorization
+User Registration & Login
+
+Password hashing using bcrypt
+
+JWT-based authentication
+
+Role-based access control (USER, ADMIN)
+
+Protected routes (Frontend & Backend)
+
+🍭 Sweet Management
+Add new sweets (Admin only)
+
+Update sweet details
+
+Delete sweets
+
+Restock inventory
+
+Prevent purchase when stock is 0
+
+Search sweets by name
+
+Filter by category and price
+
+🧑‍💼 Admin Dashboard
+Dedicated admin panel
+
+Inventory control
+
+Role-protected admin routes
+
+Admin login option from login page
+
+🎨 Frontend UI
+Modern, clean UI inspired by luxury Indian sweet brands
+
+Responsive design
+
+Sweet cards with live stock updates
+
+Loading & error states
+
+Role-based UI rendering
+
+🧪 Testing (TDD)
+Unit & integration tests
+
+Jest + Supertest
+
+Red → Green → Refactor workflow
+
+API endpoint coverage
+
+🛠️ Tech Stack
+Frontend
+React
+
+TypeScript
+
+Vite
+
+React Router
+
+Axios
+
+Backend
+Node.js
+
+Express.js
+
+TypeScript
+
+PostgreSQL (SQLite for local development)
+
+JWT Authentication
+
+Testing
+Jest
+
+Supertest
+
+📁 Project Structure
+pgsql
+Copy code
+sweet-shop-management-system/
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── middleware/
+│   │   ├── routes/
+│   │   ├── database/
+│   │   └── tests/
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── auth/
+│   │   ├── api/
+│   │   └── App.tsx
+│   └── package.json
+│
+└── README.md
+🔑 User Roles
+Role	Permissions
+USER	View sweets, purchase sweets
+ADMIN	Add, update, delete, restock sweets
+
+🔄 API Endpoints (Backend)
+Auth
+POST /api/auth/register
+
+POST /api/auth/login
+
+Sweets (Protected)
+GET /api/sweets
+
+POST /api/sweets (Admin)
+
+PUT /api/sweets/:id (Admin)
+
+DELETE /api/sweets/:id (Admin)
+
+PATCH /api/sweets/:id/restock (Admin)
+
+GET /api/sweets/search?name=
+
+▶️ Getting Started
+1️⃣ Clone the Repository
+bash
+Copy code
+git clone https://github.com/your-username/sweet-shop-management-system.git
+cd sweet-shop-management-system
+2️⃣ Backend Setup
+bash
+Copy code
+cd backend
+npm install
+npm run dev
+Create a .env file:
+
+env
+Copy code
+PORT=5000
+JWT_SECRET=your_secret_key
+3️⃣ Frontend Setup
+bash
+Copy code
+cd frontend
+npm install
+npm run dev
+4️⃣ Run Tests
+bash
+Copy code
+cd backend
+npm test
+🔐 Authentication Flow
+User logs in
+
+Backend returns JWT + role
+
+Token stored in localStorage
+
+Role used for:
+
+Route protection
+
+Admin UI access
+
+Unauthorized access → redirected to login
+
+🧠 Architecture Decisions
+Separation of concerns (Controllers, Services, Routes)
+
+Stateless JWT authentication
+
+Role-based middleware
+
+Reusable frontend components
+
+Clean and scalable folder structure
+
+📌 Future Improvements
+Order history
+
+Payment integration
+
+Analytics dashboard
+
+Refresh token support
+
+Dockerized deployment
+
+CI/CD pipeline
+
+👨‍💻 Author
+Sidharth Pundir
+Bachelor’s in Computer Science (Big Data & Analytics)
+Full-Stack Developer | Backend Enthusiast
+
+⭐ Why This Project?
+This project demonstrates:
+
+Real-world full-stack development
+
+Secure authentication practices
+
+Clean architecture
+
+Test-driven development
+
+Admin & user role separation
+
+Perfect for interviews, portfolio, and production-level learning.
+
