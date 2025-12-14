@@ -90,31 +90,7 @@ Jest
 
 Supertest
 
-📁 Project Structure
-pgsql
-Copy code
-sweet-shop-management-system/
-│
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── services/
-│   │   ├── middleware/
-│   │   ├── routes/
-│   │   ├── database/
-│   │   └── tests/
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   ├── components/
-│   │   ├── auth/
-│   │   ├── api/
-│   │   └── App.tsx
-│   └── package.json
-│
-└── README.md
+
 🔑 User Roles
 Role	Permissions
 USER	View sweets, purchase sweets
