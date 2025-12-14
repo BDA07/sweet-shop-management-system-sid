@@ -89,6 +89,7 @@ Testing
 Jest
 
 Supertest
+<img width="1742" height="886" alt="Screenshot 2025-12-14 181504" src="https://github.com/user-attachments/assets/b28ab2f8-51ca-4200-8e83-d4d3f2645d83" />
 
 
 🔑 User Roles
