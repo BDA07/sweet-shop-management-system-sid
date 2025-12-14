@@ -90,6 +90,11 @@ Jest
 
 Supertest
 <img width="1742" height="886" alt="Screenshot 2025-12-14 181504" src="https://github.com/user-attachments/assets/b28ab2f8-51ca-4200-8e83-d4d3f2645d83" />
+<img width="1912" height="933" alt="Screenshot 2025-12-14 181302" src="https://github.com/user-attachments/assets/f8524edd-b4e3-4158-9073-2bf132b7f2dc" />
+<img width="1821" height="828" alt="Screenshot 2025-12-14 181337" src="https://github.com/user-attachments/assets/1df1df18-91f2-4ef8-a058-622383288660" />
+<img width="1820" height="903" alt="Screenshot 2025-12-14 181414" src="https://github.com/user-attachments/assets/d538ad1a-4e04-4840-b498-9d0b4d88ad70" />
+<img width="1742" height="886" alt="Screenshot 2025-12-14 181504" src="https://github.com/user-attachments/assets/2a8dc309-7bf3-42b7-90f7-c8ad31b209d7" />
+
 
 
 🔑 User Roles
